@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2021, 4:17:51 PM
+    Author     : dharm
+*/
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    position: absolute;
+    top:2px;
+    color: #4a9635;
+  
+}
+#maindiv{
+    margin-left:15%;
+}
+#measurementtable{
+    position: absolute;
+    width:30%;
+    margin-top:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:20px;
+    border-radius:20px;
+    margin-left:2%;
+}
+#ordertable{
+    position: absolute;
+    width:30%;
+    margin-top:20px;
+    margin-left:45%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:20px;
+    border-radius: 10px;
+    
+}
+table{
+    width:99%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+th, td {
+  padding:10px;
+  text-align: left;
+  font-weight: bold;
+}
+#orderimage{
+    width: 250px;
+    height: 250px;
+    margin-left:27%;
+}
+#measurementimage{
+    width: 250px;
+    height: 250px;
+    margin-left:27%;
+}
+#paymentdone{
+    position: absolute;
+    top:0px;
+    right:0px;
+    font-size:20px;
+    width:39%;
+    color: white;
+    background-color:green;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:5px;
+}
+#paymentdue{
+    position: absolute;
+    top:0px;
+    right:0px;
+    font-size:20px;
+    color: white;
+    background-color:red;
+    width:35%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:5px;
+}
+ #orderstatus{
+    position: absolute;
+    top:0px;
+    right:0px;
+    font-size:20px;
+    width:26%;
+    color: white;
+    background-color: #ff9900;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:5px;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.success {
+    background-color: #4CAF50;
+    position: absolute;
+    bottom:5%;
+    left:48%;
+} /* Green */
+.success:hover {
+  background-color: #46a049;border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px; 
+}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {
+    background-color: #f44336;
+    position: absolute;
+    bottom:5%;
+    left:57%;
+} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: black; color:white;} /* Gray */ 
+.default:hover {background: #2e302e;}
+
+@page {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+   #measurementtable,#measurementtable * {
+      visibility: visible;
+    }
+    #measurementtable {
+      width:500px;
+      margin-top:20px;
+      margin-left:-2%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding:20px;
+      border-radius:20px;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+      }
+      th, td {
+        padding:10px;
+        text-align: left;
+        font-weight: bold;
+      }
+      #measurementimage{
+      width: 250px;
+      height: 250px;
+      margin-left:27%;
+  }
+}

@@ -1,0 +1,86 @@
+
+
+p{
+    text-align: center;
+    color:#4a9635;
+}
+#matched{
+    text-align: center;
+    color:#4a9635;
+}
+#notmatched{
+    text-align: center;
+    color:red;
+}
+
+#expire{
+    text-align: center;
+    color:red;
+    margin-top: 10px;
+    
+}
+#timer{
+    text-align: center;
+    color:red;
+    margin-top:20px;
+    font-size: 30px;
+}
+h2{
+    text-align:center;
+    color:#000000;
+    margin-top:80px;
+    margin-left:80%;
+}
+h3{
+    text-align: center;
+    color:#137d23;
+    margin-top:50px;
+}
+#codevalidationform{
+    margin-top: 10px;
+    border-radius:10px; 
+    background-color:#fafafa;
+    margin-left:41%; 
+    margin-right:41%; 
+    margin-bottom:10px;
+}
+#submit{
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#4a9635; 
+  }
+  
+#submit:hover{
+    
+    opacity: 80%;
+}
+#submit:disabled{
+    opacity:70%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number]{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius:15px;
+}
+.container{
+    
+   padding:40px;
+}
+   

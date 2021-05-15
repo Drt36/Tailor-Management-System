@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2020, 1:47:32 PM
+    Author     : dharm
+*/
+
+
+.content h1 {
+    position: absolute;
+    margin-top: 335px;
+    font-size: 25px;
+    margin-left:75px;
+    color: #4a9635;
+}
+
+.content h2 {
+    position: absolute;
+    margin-top: 400px;
+    font-size: 18px;
+    margin-left:75px;
+    color: #000000;
+    opacity: 80%;
+}
+
+.content h3 {
+    position: absolute;
+    margin-top: 600px;
+    font-size: 18px;
+    margin-left:75px;
+    color: #000000;
+}
+.content button {
+    position: absolute;
+    margin-top: 700px;
+    margin-left:75px;
+    background-color:#5FB946;
+    border-radius:20px;
+    color:#ffffff;
+    cursor: pointer;
+    height:30px;
+    width: 150px;
+    border:none; 
+    
+}
+.content button:hover {
+  opacity: 0.8;
+}
+
+.content .one{
+    position:absolute;
+    margin-top: 220px;
+    margin-left:900px;
+}

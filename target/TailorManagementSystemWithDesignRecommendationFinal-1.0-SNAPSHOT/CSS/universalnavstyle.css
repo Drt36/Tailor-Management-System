@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2020, 9:27:44 PM
+    Author     : dharm
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto;
+    background-color:#ffffff;
+}
+
+.menu img {
+    position: absolute;
+    top:-40px;
+    margin-left:75px;
+}
+
+.menu ul {
+    position: absolute;
+    list-style: none;
+    margin-left: 1475px;
+    margin-top:55px;
+}
+
+.menu ul li {
+    float: left;
+    margin-left:75px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    float: left;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 25px;
+}
+
+
+
+.One ::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  bottom: 0;
+  left: 75px;
+  background-color: #5FB946;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.One :hover::after{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1)
+}
+
+.Two ::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  bottom: 0;
+  left: 255px;
+  background-color: #5FB946;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.Two :hover::after{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1)
+}
+
+.menu ul li ul {
+    padding: 10px 25px;
+    margin: 50px 20px;
+}
+
+.menu ul li a:hover {
+    color: #5FB946;
+}
+
+.menu ul li ul {
+    padding: 10px 25px;
+    margin: 40px 20px;
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}

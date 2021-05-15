@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2021, 10:13:21 PM
+    Author     : dharm
+*/
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    color: green;
+}
+h3{
+    color:red;
+}
+#masterdiv{
+    position:relative;
+    margin-left:14%; 
+    margin-top:2%;
+}
+#paysalaryform{
+    position:absolute;
+    margin-left:24%; 
+    margin-top:2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding:20px;
+    width:50%;
+}
+
+input[type=number]{
+  width:60%;
+  padding:8px 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:10px;
+  margin:5px;
+  margin-right:5%;
+  
+}
+
+label{
+    display: inline-block;
+    width: 25%;
+    font-size:20px;
+}
+
+#paysalarybutton{
+    position: absolute;
+    
+    padding:10px;
+    margin-left:40%;
+    color: white;
+    background-color:#4a9635;
+    border: none;
+    border-radius: 10px;
+    bottom:-30%;
+    margin-top:43%;
+    width:10%;
+    
+}
+
+#paysalarybutton:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+#paysalarybutton:disabled{
+    opacity: 80%;
+}
+
+#cancelbtn{
+    position: absolute;
+    padding:10px;
+    margin-left:51%;
+    color: white;
+    background-color:#ff3333;
+    border: none;
+    border-radius: 10px;
+    bottom:-30%;
+    margin-top:43%;
+}
+
+#cancelbtn:hover{
+    opacity:60%;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

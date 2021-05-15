@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2021, 9:18:01 PM
+    Author     : dharm
+*/
+
+h2{
+    text-align:center;
+    margin-top: 2%;
+}
+h3{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+hr{
+    margin-left: 16%;
+}
+
+#closebutton{
+    background-color:red;
+    color: white;              
+    padding: 10px 16px;            
+    margin:8px 0; 
+    margin-left:42%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#closebutton:hover{
+    opacity:70%;
+}

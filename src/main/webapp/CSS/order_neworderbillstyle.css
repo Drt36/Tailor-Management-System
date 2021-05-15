@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2021, 6:25:47 PM
+    Author     : dharm
+*/
+
+table {
+              width:40%;
+              margin-left:5%;
+              margin-top:22%;
+              margin-bottom:5%;
+              
+            }
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding:5px;
+              text-align: left;
+            }
+           
+          
+            table#billtable th {
+              background-color: #4a9635;
+              color: white;
+    }
+    h2{
+        text-align: center;
+        color:#21820d;
+    }
+    h3{
+        text-align: center;
+        
+    }
+    #maindiv1{
+       border:1px solid black; 
+       width:590px;
+       margin-left:32.5%;
+       height:840px;
+
+    }
+    #rightparagraph{
+        position: absolute;
+        left:55%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    #leftparagraph{
+        position: absolute;
+        left:34%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    #bottomleftparagraph{
+        margin-left:5%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    #bottomrightparagraph{
+        position:absolute;
+        left:52%;
+        font-weight: bold;
+        line-height:20px;
+    }
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left:45%;
+  margin-top:2%;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #maindiv1,#maindiv1 *{
+      visibility:visible;  
+        
+    }
+    table {
+              width:40%;
+              margin-top:22%;
+              margin-bottom:5%;
+              
+            }
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding:5px;
+              text-align: left;
+            }
+           
+          
+            table#billtable th {
+              background-color: #4a9635;
+              color: white;
+    }
+    
+    h2{
+        text-align: center;
+        color:#21820d;
+    }
+    
+    h3{
+        text-align: center;
+        
+    }
+    
+    #maindiv1{
+       border:1px solid black; 
+       width:590px;
+       height:840px;
+       margin-left:7%;
+
+    }
+    
+    #rightparagraph{
+        position: absolute;
+        left:63%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    
+    #leftparagraph{
+        position: absolute;
+        left:12%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    
+    #bottomleftparagraph{
+        margin-left:5%;
+        font-weight: bold;
+        line-height:20px;
+    }
+    #bottomrightparagraph{
+        position:absolute;
+        left:55%;
+        font-weight: bold;
+        line-height:20px;
+    }
+
+
+    
+
+}
+    
+    

@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2021, 2:12:29 PM
+    Author     : dharm
+*/
+h1{
+   text-align: center;
+}
+h2{
+   color:green;
+   text-align: center;
+}
+h4{
+    text-align: center;
+    margin-top: 5px;
+}
+.value{
+    color:black;
+}
+#chartContainersales{
+    height:330px;
+    width:80%;
+    margin-left:16%;
+    margin-top:1.5%;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+#chartContainerexpense{
+    height:330px;
+    width:80%;
+    margin-left:16%;
+    margin-top:1.5%;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+.column,.row{
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column {
+  margin-top:1.5%;
+  float: left;
+  width:24%;
+  padding: 0 10px;
+  
+}
+.column:hover{
+  opacity:80%;
+  
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {
+       margin-left:16%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+#closebutton{
+    position:fixed;
+    background-color:#ff0000;
+    color: white;              
+    padding: 14px 20px;              
+    margin-left:52%;          
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position:absolute;
+    bottom:5px;
+    
+}
+#closebutton:hover{
+    background-color:#b30000; 
+}

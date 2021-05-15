@@ -1,0 +1,15 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto;
+    background-color:#ffffff;
+}
+
+.menu img {
+    position:fixed;
+    top:-40px;
+    margin-left:75px;
+}

@@ -1,0 +1,6 @@
+TestFunctions\UsernameCheck.class
+TestFunctions\Login.class
+TestFunctions\ProductCodeCheck.class
+TestFunctions\CustomerUsernameCheck.class
+TestFunctions\CustomerEmailCheck.class
+TestFunctions\EmailCheck.class

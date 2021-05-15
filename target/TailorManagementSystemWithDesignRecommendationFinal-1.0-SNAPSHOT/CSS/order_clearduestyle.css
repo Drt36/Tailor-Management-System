@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2021, 12:01:40 AM
+    Author     : dharm
+*/
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    color: green;
+}
+h3{
+    color:red;
+}
+#masterdiv{
+    position:relative;
+    margin-left:14%; 
+    margin-top:2%;
+}
+#cleardueform{
+    position:absolute;
+    margin-left:24%; 
+    margin-top:2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding:20px;
+    width:50%;
+}
+
+input[type=number]{
+  width:60%;
+  padding:8px 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:10px;
+  margin:5px;
+  margin-right:5%;
+  
+}
+
+label{
+    display: inline-block;
+    width: 25%;
+    font-size:20px;
+}
+
+#clearduebutton{
+    position: absolute;
+    
+    padding:10px;
+    margin-left:42%;
+    color: white;
+    background-color:#4a9635;
+    border: none;
+    border-radius: 10px;
+    bottom:-15%;
+    margin-top:43%;
+    width:7%;
+    
+}
+
+#clearduebutton:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+#cancelbtn{
+    position: absolute;
+    padding:10px;
+    margin-left:51%;
+    color: white;
+    background-color:#ff3333;
+    border: none;
+    border-radius: 10px;
+    bottom:-15%;
+    margin-top:43%;
+}
+
+#cancelbtn:hover{
+    opacity:60%;
+    cursor: pointer;
+}
+
+#orderimage{
+  width:300px;
+  height:300px;
+  border-radius:10%;
+  margin-left:32%;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
