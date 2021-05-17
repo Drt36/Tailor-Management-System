@@ -4,6 +4,8 @@ This is a webapplication to digitalize the processes of tailoring business.. It 
 
 Technology used:
 Java
+JSP 
+Servlet
 JavaScript
 HTML
 CSS3
